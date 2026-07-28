@@ -1,2 +1,4 @@
 # Post-mortem-interval-calculator-2.0-version
-This is the version 2.0 of the PMI calculator I achieved at shape in Columbia Engineering.
+Version 2 of the forensic Calculator (Shape Columbia University) (Wohoo! I updated it with the help of a SSL at shape)
+
+Live Demo:

@@ -23,7 +23,7 @@ private boolean isBodyTempRange; // to see if its a range or single value, makin
 private boolean isAmbientTempRange;
   
 
-public deceasedBody(String victimId, double bodyTemp, double bodyMinTemp, double bodyMaxTemp,double ambientTemp, double minAmbientTemp, double maxAmbientTemp, String livorColor, boolean isLivorFixed, int[] rigorStage,
+public deceasedBodyVersion2(String victimId, double bodyTemp, double bodyMinTemp, double bodyMaxTemp,double ambientTemp, double minAmbientTemp, double maxAmbientTemp, String livorColor, boolean isLivorFixed, int[] rigorStage,
     boolean isBodyTempRange, boolean isAmbientTempRange )
   {
 if(rigorStage == null || rigorStage.length<3){
@@ -217,5 +217,5 @@ return "Victim Id : " + victimId+
        "\n| Lividity: " + livorColor + " (Fixed: " + isLivorFixed + ")" +
        "\n| Rigor Status: [" + rigorStage[0] + ", " + rigorStage[1] + ", " + rigorStage[2] + "]" ;
 }
-)
+}
 // everytime we update the object, we need to switch the state if there is a boolean switch

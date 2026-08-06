@@ -212,7 +212,7 @@ if(isRange){
         false,
         false
     ));
-
+}
 }
             fileScanner.close();
             System.out.println("[SUCCESS] External data files parsed cleanly. Total profiles loaded: " + cases.size());
@@ -223,4 +223,5 @@ if(isRange){
             System.out.println("[ERROR] Formatting structure exception encountered inside the external data file.");
         }
     }
-}
+
+
